@@ -24,7 +24,7 @@ namespace StrictVsLoose
 
                 if (!result)
                 {
-                    return result;
+                    return false;
                 }
             }
 
