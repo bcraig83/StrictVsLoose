@@ -2,9 +2,9 @@
 
 namespace StrictVsLoose
 {
-    public interface IMessageHandler
+    public interface IMessageProcessor
     {
-        public bool HandleMessage(string message);
+        public bool ProcessMessages(IList<string> messages);
         public IList<string> GetMessages();
     }
 }

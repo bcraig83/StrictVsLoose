@@ -12,6 +12,11 @@ namespace StrictVsLoose
             _messages = new List<string>();
         }
 
+        public IList<string> GetMessages()
+        {
+            return _messages;
+        }
+
         public bool HandleMessage(string message)
         {
             if (string.IsNullOrEmpty(message))
