@@ -6,5 +6,6 @@ namespace StrictVsLoose
     {
         public bool HandleMessage(string message);
         public IList<string> GetMessages();
+        public void SendToParser();
     }
 }

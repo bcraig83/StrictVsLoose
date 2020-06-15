@@ -30,5 +30,10 @@ namespace StrictVsLoose
             _messages.Add(sb.ToString());
             return true;
         }
+
+        public void SendToParser()
+        {
+            // some code to send the messages to a parser service
+        }
     }
 }

@@ -22,6 +22,8 @@ namespace StrictVsLoose
             {
                 var result = _handler.HandleMessage(message);
 
+                _handler.SendToParser();
+
                 if (!result)
                 {
                     return false;
